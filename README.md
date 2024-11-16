@@ -10,7 +10,7 @@
 - 802.11be(Wi-Fi 7)
 
 在wifuzz的基础上做了些更改
->>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> sudo python3 fuzz.py -i wlan0mon -s "ap-ssid" {mode}
 ```text
 # strat:
     sudo airmon-ng
